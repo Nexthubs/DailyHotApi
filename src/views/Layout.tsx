@@ -185,7 +185,7 @@ const Layout: FC = (props) => {
         {props.children}
         <footer>
           <div class="social">
-            <a href="https://github.com/imsyy/DailyHotApi" className="link" target="_blank">
+            <a href="https://ai.nexthubs.cn" className="link" target="_blank">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                 <path
                   fill="currentColor"
@@ -193,42 +193,13 @@ const Layout: FC = (props) => {
                 />
               </svg>
             </a>
-            <a href="https://www.imsyy.top" className="link" target="_blank">
-              <svg
-                className="btn-icon"
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  fill="currentColor"
-                  d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1"
-                />
-              </svg>
-            </a>
-            <a href="mailto:one@imsyy.top" className="link">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
-                <path
-                  fill="currentColor"
-                  d="m20 8l-8 5l-8-5V6l8 5l8-5m0-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"
-                />
-              </svg>
-            </a>
           </div>
           <div class="power">
-            Copyright&nbsp;©&nbsp;
-            <a href="https://www.imsyy.top/" target="_blank">
-              無名
-            </a>
-            &nbsp;|&nbsp;Power by&nbsp;
-            <a href="https://github.com/honojs/hono/" target="_blank">
-              Hono
-            </a>
+            Copyright&nbsp;©&nbsp;Nexthubs
           </div>
           <div class="icp">
             <a href="https://beian.miit.gov.cn/" target="_blank">
-              豫ICP备2022018134号-1
+              京ICP备2022035150号-1
             </a>
           </div>
         </footer>
