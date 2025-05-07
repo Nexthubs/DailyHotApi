@@ -19,7 +19,7 @@ export const handleRoute = async (_: undefined, noCache: boolean) => {
 const getList = async (noCache: boolean) => {
   const url = `https://dev.nexthubs.fun/webhook/ysxw`;
   const result = await get({ url, noCache });
-  const list = result.data.data.list;
+  const list = result.data[0].list;
   return {
     ...result,
     data: list.map((v: RouterType["ysxw-news"]) => ({
