@@ -28,7 +28,6 @@ const getList = async (noCache: boolean) => {
       cover: undefined,
       author: v.source,
       hot: undefined,
-      timestamp: getTime(v.ptime),
       url: `https://ysxw.cctv.cn/article.html?toc_style_id=feeds_default&item_id=${v.docid}`,
       mobileUrl: `https://content-static.cctvnews.cctv.com/snow-book/index.html?toc_style_id=feeds_default&item_id=${v.docid}`,
     })),
