@@ -27,6 +27,12 @@ export type RouterType = {
     docid: string;
     ptime: string;
   };
+  "ysxw-news": {
+    title: string;
+    url: string;
+    source: string;
+    docid: string;
+  };
   "zhihu-daily": {
     id: number;
     images: [string];
