@@ -8,7 +8,7 @@ export const handleRoute = async (_: undefined, noCache: boolean) => {
   const routeData: RouterData = {
     name: "ysxw-news",
     title: "央视新闻",
-    type: "热点榜",
+    type: "推荐榜",
     link: "https://ysxw.cctv.cn/24hours.html",
     total: listData.data?.length || 0,
     ...listData,
