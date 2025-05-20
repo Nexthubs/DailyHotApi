@@ -33,6 +33,12 @@ export type RouterType = {
     source: string;
     docid: string;
   };
+  "freshnews": {
+    title: string;
+    url: string;
+    source: string;
+    docid: string;
+  };
   "zhihu-daily": {
     id: number;
     images: [string];
