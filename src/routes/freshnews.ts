@@ -26,7 +26,7 @@ const getList = async (noCache: boolean) => {
       id: v.docid,
       title: v.title,
       cover: undefined,
-      author: v.type,
+      author: v.newstype,
       hot: undefined,
       url: `https://www.freshnewsasia.com/${v.docid}`,
       mobileUrl: `https://www.freshnewsasia.com/${v.docid}`,
