@@ -28,8 +28,8 @@ const getList = async (noCache: boolean) => {
       cover: undefined,
       author: v.source,
       hot: undefined,
-      url: `https://www.freshnewsasia.com/index.php/en/${v.source}/${v.docid}`,
-      mobileUrl: `https://www.freshnewsasia.com/index.php/en/${v.source}/${v.docid}`,
+      url: `https://www.freshnewsasia.com/index.php/en/${v.source}/${v.docid}.html`,
+      mobileUrl: `https://www.freshnewsasia.com/index.php/en/${v.source}/${v.docid}.html`,
     })),
   };
 };
