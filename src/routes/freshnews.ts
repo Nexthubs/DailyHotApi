@@ -9,7 +9,7 @@ export const handleRoute = async (_: undefined, noCache: boolean) => {
     name: "freshnews",
     title: "Fresh News",
     type: "推荐榜",
-    link: "https://ysxw.cctv.cn/",
+    link: "https://www.freshnewsasia.com/index.php/en/",
     total: listData.data?.length || 0,
     ...listData,
   };
@@ -28,8 +28,8 @@ const getList = async (noCache: boolean) => {
       cover: undefined,
       author: v.source,
       hot: undefined,
-      url: `https://ysxw.cctv.cn/article.html?toc_style_id=feeds_default&item_id=${v.docid}`,
-      mobileUrl: `https://content-static.cctvnews.cctv.com/snow-book/index.html?toc_style_id=feeds_default&item_id=${v.docid}`,
+      url: `https://www.freshnewsasia.com/index.php/en/${v.source}/${v.docid}`,
+      mobileUrl: `https://www.freshnewsasia.com/index.php/en/${v.source}/${v.docid}`,
     })),
   };
 };
