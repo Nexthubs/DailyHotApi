@@ -25,8 +25,8 @@ const getList = async (noCache: boolean) => {
     data: list.map((v: RouterType["freshnews"]) => ({
       id: v.docid,
       title: v.title,
-      url: `https://search.yahoo.co.jp/realtime/${v.source}&rkf=1&ifr=tp_bz`,
-      mobileUrl: `https://search.yahoo.co.jp/realtime/${v.source}&rkf=1&ifr=tp_bz`,
+      url: `https://search.yahoo.co.jp/realtime/${v.docid}&rkf=1&ifr=tp_bz`,
+      mobileUrl: `https://search.yahoo.co.jp/realtime/${v.docid}&rkf=1&ifr=tp_bz`,
     })),
   };
 };
