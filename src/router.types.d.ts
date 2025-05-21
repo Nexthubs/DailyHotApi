@@ -39,6 +39,10 @@ export type RouterType = {
     source: string;
     docid: string;
   };
+  "yahoojp": {
+    title: string;
+    docid: string;
+  };
   "zhihu-daily": {
     id: number;
     images: [string];
