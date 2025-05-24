@@ -55,6 +55,10 @@ export type RouterType = {
     title: string;
     docid: string;
   };
+  "prothomalo": {
+    title: string;
+    docid: string;
+  };
   "zhihu-daily": {
     id: number;
     images: [string];
