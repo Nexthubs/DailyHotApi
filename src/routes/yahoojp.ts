@@ -17,7 +17,7 @@ export const handleRoute = async (_: undefined, noCache: boolean) => {
 };
 
 const getList = async (noCache: boolean) => {
-  const url = `http://n8n.giaogiao.work/webhook/yahoojp`;
+  const url = `https://n8n.nmco.work/webhook/yahoojp`;
   const result = await get({ url, noCache });
   const list = result.data[0].list;
   return {
