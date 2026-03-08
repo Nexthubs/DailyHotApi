@@ -9,7 +9,7 @@ export const handleRoute = async (_: undefined, noCache: boolean) => {
     name: "freshnews",
     title: "Fresh News",
     type: "推荐榜",
-    link: "https://www.freshnewsasia.com/index.php/en/",
+    link: "https://en.freshnewsasia.com/index.php/en/",
     total: listData.data?.length || 0,
     ...listData,
   };
@@ -28,8 +28,8 @@ const getList = async (noCache: boolean) => {
       cover: undefined,
       author: v.source,
       hot: undefined,
-      url: `https://www.freshnewsasia.com/index.php/en/${v.source}/${v.docid}.html`,
-      mobileUrl: `https://www.freshnewsasia.com/index.php/en/${v.source}/${v.docid}.html`,
+      url: `https://en.freshnewsasia.com/index.php/en/${v.source}/${v.docid}.html`,
+      mobileUrl: `https://en.freshnewsasia.com/index.php/en/${v.source}/${v.docid}.html`,
     })),
   };
 };
