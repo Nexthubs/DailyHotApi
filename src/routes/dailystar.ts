@@ -17,7 +17,7 @@ export const handleRoute = async (_: undefined, noCache: boolean) => {
 };
 
 const getList = async (noCache: boolean) => {
-  const url = `http://n8n.giaogiao.work/webhook/dailystar`;
+  const url = `http://n8n-us.nmco.work/webhook/dailystar`;
   const result = await get({ url, noCache });
   const list = result.data[0].list;
   return {
