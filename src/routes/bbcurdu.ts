@@ -17,7 +17,7 @@ export const handleRoute = async (_: undefined, noCache: boolean) => {
 };
 
 const getList = async (noCache: boolean) => {
-  const url = `https://n8n.giaogiao.work/webhook/bbcurdu`;
+  const url = `https://n8n-us.nmco.work/webhook/bbcurdu`;
   const result = await get({ url, noCache });
   const list = result.data[0].list;
   return {
