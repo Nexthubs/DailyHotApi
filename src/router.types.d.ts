@@ -118,12 +118,17 @@ export type RouterType = {
   };
   weibo: {
     mid: string;
+    itemid: string;
+    desc: string;
+    scheme: string;
     word: string;
     word_scheme: string;
     note: string;
     flag_desc: string;
-    num: number;
+    // num: number;
+    desc_extr: number;
     onboard_time: number;
+    pic: string;
   };
   zhihu: {
     target: {
@@ -155,6 +160,12 @@ export type RouterType = {
     show: string;
     rawUrl: string;
     query: string;
+    title?: string;
+    imgInfo?: {
+      src?: string;
+    };
+    url?: string;
+    hotTag?: string;
   };
   miyoushe: {
     post: {
@@ -285,6 +296,9 @@ export type RouterType = {
       username: string;
     };
     publish_time: string;
+    count_info?: {
+      agree_num?: number;
+    };
   };
   ifanr: {
     buzz_original_url: string;
@@ -463,5 +477,15 @@ export type RouterType = {
       title: string;
       name: string;
     };
+  };
+  gameres: {
+    id: string;
+    title: string;
+    hot: number | undefined;
+    desc: string;
+    cover: string;
+    timestamp: number | undefined;
+    url: string;
+    mobileUrl: string;
   };
 };
