@@ -17,7 +17,7 @@ export const handleRoute = async (_: undefined, noCache: boolean) => {
 };
 
 const getList = async (noCache: boolean) => {
-  const url = `https://dev.nexthubs.fun/webhook/prothomalo`;
+  const url = `https://n8n.nmco.work/webhook/prothomalo`;
   const result = await get({ url, noCache });
   const list = result.data[0].list;
   return {
